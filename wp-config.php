@@ -48,6 +48,9 @@ define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
+// Turn off redirect on admin
+define('FORCE_SSL_ADMIN', false);
+
 /**#@+
  * Authentication Unique Keys and Salts.
  *
